@@ -73,7 +73,8 @@ body {
 .header > .container {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 337px;
+  column-gap: 332px;
+  min-width: 1128px;
 }
 
 .header-nav {
@@ -140,10 +141,14 @@ body {
 .hero {
   padding: 188px 0;
   text-align: center;
-}
-
-.hero {
-  background-color: var(--navy-blue-color); /* Почему уменьшается BG без заданой ширины */
+  background-color: var(--navy-blue-color);
+  height: 600px;
+  max-width: 1440рх;
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: contain; */
 }
 
 .hero-title {
