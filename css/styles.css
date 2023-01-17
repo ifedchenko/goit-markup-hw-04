@@ -217,6 +217,13 @@ body {
 .our-features-items {
   width: 264px;
 }
+.our-features-items::before {
+  content: '';
+  display: inline-block;
+  width: 264px;
+  height: 121px;
+  background-color: #f4f4fd;
+}
 
 .our-features-list {
   display: flex;
