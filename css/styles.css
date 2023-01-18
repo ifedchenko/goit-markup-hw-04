@@ -298,7 +298,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue-color);
-  margin-bottom: 8px;
+  margin: 8px 0;
 }
 
 .our-team-position {
@@ -308,11 +308,25 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--slate-color);
+  margin-bottom: 8px;
 }
 
 .our-team-list {
   display: flex;
   gap: 24px;
+}
+
+.our-team-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-links {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-color);
 }
 
 .our-team-item {
