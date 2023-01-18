@@ -217,6 +217,14 @@ body {
 .our-features-items {
   width: 264px;
 }
+
+.our-features-icons {
+  width: 264px;
+  height: 121px;
+  background-color: #f4f4fd;
+  padding: 24px 100px;
+}
+
 /* .our-features-items::before {
   content: '';
   display: inline-block;
@@ -316,7 +324,7 @@ body {
   gap: 24px;
 }
 
-.our-team-social-links {
+/* .our-team-social-links {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -327,6 +335,18 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-color);
+} */
+.social-links {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-color);
+  padding: 12px;
+}
+.our-team-social-links {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 
 .our-team-item {
