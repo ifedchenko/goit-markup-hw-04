@@ -154,14 +154,13 @@ body {
 }
 
 .hero-title {
-  width: 494px; /* 494px как в макете не работает */
+  width: 494px;
   text-align: center;
   margin: 0 auto;
 
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  /* letter-spacing: 0.02em; */
   color: #ffffff;
 }
 
@@ -324,18 +323,6 @@ body {
   gap: 24px;
 }
 
-/* .our-team-social-links {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.social-links {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--iris-color);
-} */
 .social-links {
   width: 40px;
   height: 40px;
@@ -417,7 +404,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
 }
