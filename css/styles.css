@@ -384,11 +384,40 @@ body {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  padding: 5px 40px;
+  padding: 16px 32px;
 }
 
+.customers-item-link {
+  display: inline-block;
+  width: 104px;
+  height: 56px;
+  fill: #afb1b8;
+  /* outline: 1px solid tomato; */
+}
+
+.customers-item-icons.yaco {
+  margin-top: 7px;
+  margin-left: 32px;
+}
+.customers-item-icons.tagline {
+  margin-top: 3px;
+  margin-left: 33px;
+}
+.customers-item-icons.company {
+  margin-top: 9px;
+  margin-left: 30px;
+}
+.customers-item-icons.foster {
+  margin-top: 9px;
+  margin-left: 11px;
+}
 .customers-item-icons.brand {
-  fill: #000;
+  margin-top: 7px;
+  margin-left: 22px;
+}
+.customers-item-icons.tag-line {
+  margin-top: 7px;
+  margin-left: 6px;
 }
 /* -----------------INDEX-FOOTER------------------- */
 
