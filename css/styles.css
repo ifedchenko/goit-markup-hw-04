@@ -217,7 +217,7 @@ body {
 .our-features-items {
   width: 264px;
 }
-.our-features-items::before {
+/* .our-features-items::before {
   content: '';
   display: inline-block;
   width: 264px;
@@ -225,9 +225,9 @@ body {
   background-color: #f4f4fd;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
-.image-strategy::before {
+/* .image-strategy::before {
   background-image: url(../svg/antenna.svg);
 }
 
@@ -241,7 +241,7 @@ body {
 
 .image-technologies::before {
   background-image: url(../svg/astronaut.svg);
-}
+} */
 .our-features-list {
   display: flex;
   gap: 24px;
