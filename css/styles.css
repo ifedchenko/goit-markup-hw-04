@@ -459,6 +459,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .footer-social-links {
@@ -467,6 +468,30 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   padding: 8px;
+}
+
+.footer-social-links-ico.instagram,
+.footer-social-links-ico.twitter,
+.footer-social-links-ico.facebook,
+.footer-social-links-ico.linkedin {
+  fill: #f4f4fd;
+}
+/* .footer-social-links-ico.instagram:hover,
+.footer-social-links-ico.twitter:hover,
+.footer-social-links-ico.facebook:hover,
+.footer-social-links-ico.linkedin:hover {
+  fill: #2e2f42; 
+}*/
+
+.footer-social-media-icon-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer > .container {
+  display: flex;
+  gap: 120px;
+  align-items: baseline;
 }
 /* -----------------PORTFOLIO------------------- */
 
