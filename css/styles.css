@@ -183,12 +183,6 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #404bbf;
 }
