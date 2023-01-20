@@ -184,7 +184,6 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #ffffff;
   background-color: var(--hover-color);
 }
 
