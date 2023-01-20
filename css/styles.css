@@ -62,6 +62,7 @@ body {
   --slate-color: #434455;
   --iris-color: #4d5ae5;
   --hover-color: #404bbf;
+  --cloud-color: #f4f4fd;
 }
 
 /* -----------------INDEX-HEADER------------------- */
@@ -178,13 +179,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color: var(--iris-color);
   cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: var(--hover-color);
 }
 
 /* -----------------INDEX-OUR-FEATURES------------------- */
@@ -214,7 +215,7 @@ body {
 .our-features-icons {
   width: 264px;
   height: 121px;
-  background-color: #f4f4fd;
+  background-color: var(--cloud-color);
   padding: 24px 100px;
 }
 
@@ -275,7 +276,7 @@ body {
 /* -----------------INDEX-OUR-TEAM------------------- */
 .our-team {
   padding: 120px 0;
-  background-color: #f4f4fd;
+  background-color: var(--cloud-color);
 }
 
 .our-team-details {
@@ -318,25 +319,24 @@ body {
 }
 
 .social-links {
+  display: block;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-color);
   padding: 12px;
 }
+
 .social-links-ico.instagram,
 .social-links-ico.twitter,
 .social-links-ico.facebook,
 .social-links-ico.linkedin {
-  fill: #f4f4fd;
+  fill: var(--cloud-color);
 }
 
-/* .social-links-ico.instagram:hover,
-.social-links-ico.twitter:hover,
-.social-links-ico.facebook:hover,
-.social-links-ico.linkedin:hover {
-  fill: #2e2f42; 
-}*/
+.social-links:hover {
+  background-color: var(--hover-color);
+}
 .our-team-social-links {
   display: flex;
   gap: 24px;
@@ -372,47 +372,55 @@ body {
   gap: 24px;
 }
 
-.customers-item {
+/* .customers-item {
   min-width: 168px;
   /* min-width: calc((100%-120px) / 6); */
-  height: 88px;
+/* height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   padding: 16px 32px;
-}
+} */
 
 .customers-item-link {
-  display: inline-block;
-  width: 104px;
-  height: 56px;
-  fill: #afb1b8;
-  /* outline: 1px solid tomato; */
+  display: block;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  fill: #8e8f99;
+}
+
+.customers-item-link:hover,
+.customers-item-link:focus {
+  border: 1px solid var(--hover-color);
+  fill: var(--hover-color);
 }
 
 .customers-item-icons.yaco {
-  margin-top: 7px;
-  margin-left: 32px;
+  margin-top: 23px;
+  margin-left: 64px;
 }
 .customers-item-icons.tagline {
-  margin-top: 3px;
-  margin-left: 33px;
+  margin-top: 19px;
+  margin-left: 65px;
 }
 .customers-item-icons.company {
-  margin-top: 9px;
-  margin-left: 30px;
+  margin-top: 25px;
+  margin-left: 62px;
 }
 .customers-item-icons.foster {
-  margin-top: 9px;
-  margin-left: 11px;
+  margin-top: 25px;
+  margin-left: 43px;
 }
 .customers-item-icons.brand {
-  margin-top: 7px;
-  margin-left: 22px;
+  margin-top: 23px;
+  margin-left: 54px;
 }
 .customers-item-icons.tag-line {
-  margin-top: 7px;
-  margin-left: 6px;
+  margin-top: 23px;
+  margin-left: 38px;
 }
+
 /* -----------------INDEX-FOOTER------------------- */
 
 .footer {
@@ -428,7 +436,7 @@ body {
   font-size: 18px;
   line-height: 1.16;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--cloud-color);
 }
 .logo-menu-footer span {
   color: var(--iris-color);
@@ -455,20 +463,26 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
-
+.footer-our-team-social-links {
+  display: flex;
+  gap: 16px;
+}
 .footer-social-links {
+  display: block;
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   padding: 8px;
 }
-
+.footer-social-links:hover {
+  background-color: #31d0aa;
+}
 .footer-social-links-ico.instagram,
 .footer-social-links-ico.twitter,
 .footer-social-links-ico.facebook,
 .footer-social-links-ico.linkedin {
-  fill: #f4f4fd;
+  fill: var(--cloud-color);
 }
 /* .footer-social-links-ico.instagram:hover,
 .footer-social-links-ico.twitter:hover,
@@ -501,7 +515,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--iris-color);
-  background-color: #f4f4fd;
+  background-color: var(--cloud-color);
   cursor: pointer;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
